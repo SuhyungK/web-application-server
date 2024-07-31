@@ -21,4 +21,12 @@ public class DataBase {
     public static Collection<User> findAll() {
         return users.values();
     }
+
+    public static int getUserCount() {
+        return users.size();
+    }
+
+    public static void clear() {
+        users.clear();
+    }
 }
